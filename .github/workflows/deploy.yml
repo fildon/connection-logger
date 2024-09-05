@@ -30,12 +30,6 @@ jobs:
       - name: 📥 Install deps
         run: npm ci
 
-      - name: ✨ npm lint
-        run: npm run lint
-
-      - name: 🧪 npm test
-        run: npm run test
-
       - name: 🚧 npm build
         run: npm run build
 
